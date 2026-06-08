@@ -3,8 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta data-i18n="products_desc" name="description" content="Mazao ya TAMCU LTD - Korosho, Ufuta na Mbaazi kutoka Tunduru, Tanzania.">
+<meta data-i18n="products_desc" name="description" content="Chunguza mazao yanayohudumiwa na TAMCU LTD kutoka Tunduru, Tanzania, ikiwemo korosho, ufuta, mbaazi, choroko, karanga, kunde na njugu.">
 <title data-i18n="products_title">Mazao Yetu | TAMCU LTD</title>
+<meta name="author" content="TAMCU LTD">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0F172A">
+<meta name="color-scheme" content="light">
+<link rel="canonical" href="products.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/images/logo.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:locale" content="sw_TZ">
+<meta property="og:site_name" content="TAMCU LTD">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mazao Yetu | TAMCU LTD">
+<meta property="og:description" content="Korosho, ufuta, mbaazi na mazao mengine ya biashara yanayohudumiwa na TAMCU LTD kwa wakulima wa Tunduru.">
+<meta property="og:image" content="assets/images/CoverPage.png">
+<meta property="og:url" content="products.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mazao Yetu | TAMCU LTD">
+<meta name="twitter:description" content="Mazao ya biashara ya TAMCU LTD: korosho, ufuta, mbaazi, choroko, karanga, kunde na njugu.">
+<meta name="twitter:image" content="assets/images/CoverPage.png">
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
 tailwind.config = {
@@ -29,11 +48,12 @@ tailwind.config = {
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body class="font-body bg-background text-text">
+<a href="#main-content" class="skip-link">Skip to main content</a>
 
 <!-- Announcement Bar -->
 <div class="bg-primary text-white py-2.5 overflow-hidden border-b border-accent/40 shadow-md relative z-50">
@@ -97,7 +117,7 @@ tailwind.config = {
 </nav>
 
 <div id="mobile-menu-overlay" class="fixed inset-0 bg-black/60 z-50 hidden lg:hidden"></div>
-<div id="mobile-menu" class="mobile-menu fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-surface z-50 shadow-2xl lg:hidden overflow-y-auto">
+<div id="mobile-menu" class="mobile-menu fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-surface z-50 shadow-2xl lg:hidden overflow-y-auto" role="dialog" aria-modal="true" aria-label="Mobile navigation">
   <div class="p-6">
     <div class="flex items-center justify-between mb-8">
       <div class="flex items-center gap-3">
@@ -124,6 +144,7 @@ tailwind.config = {
   </div>
 </div>
 
+<main id="main-content">
 <!-- Page Hero -->
 <section class="relative bg-primary">
   <div class="absolute inset-0 opacity-20" style="background-image: url('assets/images/slideshow/korosho.jpg'); background-size: cover; background-position: center;"></div>
@@ -337,6 +358,7 @@ tailwind.config = {
     </div>
   </div>
 </section>
+</main>
 
 <!-- Footer -->
 <footer class="bg-primary text-white pt-16 pb-8">

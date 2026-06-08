@@ -59,7 +59,7 @@
     index_title:
       'TAMCU LTD | Tunduru Agricultural Marketing Co-operative Union',
     index_desc:
-      'TAMCU LTD - Tunduru Agricultural Marketing Co-operative Union. Primary Co-operative Society for Agricultural Marketing in Tunduru since 1994.',
+      'TAMCU LTD is the Tunduru Agricultural Marketing Co-operative Union in Ruvuma, supporting markets for cashew, sesame, pigeon peas and other crops since 1994.',
     index_hero_subtitle: 'Tunduru Agricultural Marketing Co-operative Union',
     index_hero_title: 'Strengthening Cooperatives,<br>Increasing Productivity',
     index_hero_desc:
@@ -144,7 +144,7 @@
     /* ---------- ABOUT PAGE ---------- */
     about_title: 'About Us | TAMCU LTD',
     about_desc:
-      'About TAMCU LTD - History, Vision, Mission and Staff of the Agricultural Marketing Co-operative Union of Tunduru.',
+      'Learn about TAMCU LTD history, registration, vision, mission and service areas as the Tunduru Agricultural Marketing Co-operative Union.',
     about_hero_label: 'Learn More',
     about_hero_title: 'About TAMCU LTD',
     about_hero_subtitle:
@@ -196,7 +196,7 @@
     /* ---------- PRODUCTS PAGE ---------- */
     products_title: 'Our Products | TAMCU LTD',
     products_desc:
-      'Products of TAMCU LTD - Cashew, Sesame and Pigeon Peas from Tunduru, Tanzania.',
+      'Explore TAMCU LTD crops from Tunduru, Tanzania, including cashew, sesame, pigeon peas, mung beans, groundnuts, black-eyed peas and peanuts.',
     products_hero_label: 'Our Products',
     products_hero_title: 'Commercial Crops',
     products_hero_subtitle:
@@ -257,7 +257,7 @@
     /* ---------- SERVICES PAGE ---------- */
     services_title: 'Our Services | TAMCU LTD',
     services_desc:
-      'Services of TAMCU LTD - SACCOS, Transport, Input Store and Company.',
+      'TAMCU LTD services for members and farmers include SACCOS, crop transport, agricultural inputs, market advice and company support.',
     services_hero_label: 'Our Projects',
     services_hero_title: 'Our Services',
     services_hero_subtitle:
@@ -308,7 +308,7 @@
     /* ---------- INVESTMENT PAGE ---------- */
     investment_title: 'Investment | TAMCU LTD',
     investment_desc:
-      'Investment in TAMCU LTD - Share Purchase and Warehouse Services.',
+      'Investment opportunities with TAMCU LTD through share purchases and warehouse services supporting crop storage, processing and marketing in Tunduru.',
     investment_hero_label: 'Investment Opportunities',
     investment_hero_title: 'Investment',
     investment_hero_subtitle:
@@ -363,7 +363,7 @@
     /* ---------- CONTACT PAGE ---------- */
     contact_title: 'Contact Us | TAMCU LTD',
     contact_desc:
-      'Contact TAMCU LTD - Tunduru Agricultural Marketing Co-operative Union.',
+      'Contact TAMCU LTD in Tunduru, Ruvuma, Tanzania for membership, crop marketing, co-operative services, investment and general enquiries.',
     contact_hero_label: 'Send Us a Message',
     contact_hero_title: 'Contact Us',
     contact_hero_subtitle:
@@ -409,7 +409,7 @@
     /* ---------- NEWS PAGE ---------- */
     news_title: 'News | TAMCU LTD',
     news_desc:
-      'News and events from TAMCU LTD - Tunduru Agricultural Marketing Co-operative Union.',
+      'Read news, events, crop market updates, meetings and announcements from TAMCU LTD, the Tunduru Agricultural Marketing Co-operative Union.',
     news_hero_label: 'Latest Updates',
     news_hero_title: 'News & Events',
     news_hero_subtitle: 'Read important news and events from TAMCU LTD.',
@@ -443,7 +443,7 @@
     /* ---------- PRIVACY POLICY PAGE ---------- */
     privacy_title: 'Privacy Policy | TAMCU LTD',
     privacy_desc:
-      'Privacy Policy of TAMCU LTD - Tunduru Agricultural Marketing Co-operative Union.',
+      'The TAMCU LTD Privacy Policy explains how we collect, use and protect your information when you visit the website or contact us.',
     privacy_hero_label: 'Laws and Terms',
     privacy_hero_title: 'Privacy Policy',
     privacy_hero_subtitle: 'How we handle and protect your information.',
@@ -506,7 +506,7 @@
     /* ---------- TERMS OF USE PAGE ---------- */
     terms_title: 'Terms of Use | TAMCU LTD',
     terms_desc:
-      'Terms of Use of TAMCU LTD - Tunduru Agricultural Marketing Co-operative Union.',
+      'The TAMCU LTD Terms of Use explain the rules for using the information, services and content provided on this website.',
     terms_hero_label: 'Laws and Terms',
     terms_hero_title: 'Terms of Use',
     terms_hero_subtitle: 'Laws and terms for using the TAMCU LTD website and services.',

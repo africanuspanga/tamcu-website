@@ -3,9 +3,60 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta data-i18n="index_desc" name="description" content="TAMCU LTD - Tunduru Agricultural Marketing Co-operative Union. Chama Kikuu cha Ushirika cha Masoko ya Mazao ya Kilimo Tunduru tangu 1994.">
+<meta data-i18n="index_desc" name="description" content="TAMCU LTD ni Chama Kikuu cha Ushirika cha Masoko ya Mazao ya Kilimo Tunduru, Ruvuma, kinachosaidia masoko ya korosho, ufuta, mbaazi na mazao mengine tangu 1994.">
 <meta name="keywords" content="TAMCU, Tunduru, Agricultural Cooperative, Korosho, Cashew, Ufuta, Sesame, Mbaazi, Pigeon Peas, Tanzania">
 <title data-i18n="index_title">TAMCU LTD | Tunduru Agricultural Marketing Co-operative Union</title>
+<meta name="author" content="TAMCU LTD">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0F172A">
+<meta name="color-scheme" content="light">
+<link rel="canonical" href="./">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/images/logo.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:locale" content="sw_TZ">
+<meta property="og:site_name" content="TAMCU LTD">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TAMCU LTD | Tunduru Agricultural Marketing Co-operative Union">
+<meta property="og:description" content="Chama Kikuu cha Ushirika cha Masoko ya Mazao ya Kilimo Tunduru kinachohudumia wakulima na vyama vya ushirika tangu 1994.">
+<meta property="og:image" content="assets/images/CoverPage.png">
+<meta property="og:url" content="./">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TAMCU LTD | Tunduru Agricultural Marketing Co-operative Union">
+<meta name="twitter:description" content="Huduma za masoko ya mazao, ushirika, pembejeo, usafirishaji na uwekezaji kwa wakulima wa Tunduru.">
+<meta name="twitter:image" content="assets/images/CoverPage.png">
+<link rel="preload" as="image" href="assets/images/slideshow/korosho.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TAMCU LTD",
+  "alternateName": "Tunduru Agricultural Marketing Co-operative Union",
+  "foundingDate": "1994-03-18",
+  "logo": "assets/images/logo.png",
+  "image": "assets/images/CoverPage.png",
+  "email": "tamcultd@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Tunduru",
+    "addressRegion": "Ruvuma",
+    "addressCountry": "TZ"
+  },
+  "sameAs": [
+    "https://www.instagram.com/tamcultd",
+    "https://www.facebook.com/share/17rt69TDyn/",
+    "https://whatsapp.com/channel/0029VbCT6PNBfxo3zGT9mG3m"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "TAMCU LTD",
+  "inLanguage": ["sw", "en"]
+}
+</script>
 
 <!-- Tailwind CSS -->
 <script src="https://cdn.tailwindcss.com"></script>
@@ -34,7 +85,7 @@ tailwind.config = {
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
 <!-- Lucide Icons -->
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
@@ -43,6 +94,7 @@ tailwind.config = {
 <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body class="font-body bg-background text-text">
+<a href="#main-content" class="skip-link">Skip to main content</a>
 
 <!-- ============================================
      ANNOUNCEMENT BAR
@@ -118,7 +170,7 @@ tailwind.config = {
 <div id="mobile-menu-overlay" class="fixed inset-0 bg-black/60 z-50 hidden lg:hidden"></div>
 
 <!-- Mobile Menu Drawer -->
-<div id="mobile-menu" class="mobile-menu fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-surface z-50 shadow-2xl lg:hidden overflow-y-auto">
+<div id="mobile-menu" class="mobile-menu fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-surface z-50 shadow-2xl lg:hidden overflow-y-auto" role="dialog" aria-modal="true" aria-label="Mobile navigation">
   <div class="p-6">
     <div class="flex items-center justify-between mb-8">
       <div class="flex items-center gap-3">
@@ -145,6 +197,7 @@ tailwind.config = {
   </div>
 </div>
 
+<main id="main-content">
 <!-- ============================================
      HERO SECTION
      ============================================ -->
@@ -182,7 +235,7 @@ tailwind.config = {
   </div>
 
   <!-- Dots -->
-  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex gap-3">
+  <div class="hero-dots absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex">
     <button class="hero-dot w-3 h-3 rounded-full bg-white transition-all" aria-label="Slide 1"></button>
     <button class="hero-dot w-3 h-3 rounded-full bg-white/40 transition-all" aria-label="Slide 2"></button>
     <button class="hero-dot w-3 h-3 rounded-full bg-white/40 transition-all" aria-label="Slide 3"></button>
@@ -619,6 +672,7 @@ tailwind.config = {
     </div>
   </div>
 </section>
+</main>
 
 <!-- ============================================
      FOOTER

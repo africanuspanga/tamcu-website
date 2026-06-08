@@ -10,6 +10,7 @@
   // ==========================================
   const slides = document.querySelectorAll('.hero-slide');
   const dots = document.querySelectorAll('.hero-dot');
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   let currentSlide = 0;
   let slideInterval;
 
@@ -29,11 +30,15 @@
   }
 
   function startSlideshow() {
+    if (prefersReducedMotion || slides.length <= 1) return;
     slideInterval = setInterval(nextSlide, 5000);
   }
 
   function stopSlideshow() {
-    clearInterval(slideInterval);
+    if (slideInterval) {
+      clearInterval(slideInterval);
+      slideInterval = null;
+    }
   }
 
   dots.forEach((dot, index) => {
@@ -62,6 +67,7 @@
   const navbar = document.getElementById('navbar');
 
   function handleNavbarScroll() {
+    if (!navbar) return;
     if (window.scrollY > 50) {
       navbar.classList.add('scrolled');
     } else {
@@ -82,21 +88,34 @@
   const mobileLinks = mobileMenu?.querySelectorAll('a');
 
   function openMobileMenu() {
+    if (!mobileMenu || !mobileMenuOverlay) return;
     mobileMenu.classList.add('open');
     mobileMenuOverlay.classList.remove('hidden');
+    mobileMenuBtn?.setAttribute('aria-expanded', 'true');
     document.body.style.overflow = 'hidden';
+    mobileMenuClose?.focus();
   }
 
   function closeMobileMenu() {
+    if (!mobileMenu || !mobileMenuOverlay) return;
     mobileMenu.classList.remove('open');
     mobileMenuOverlay.classList.add('hidden');
+    mobileMenuBtn?.setAttribute('aria-expanded', 'false');
     document.body.style.overflow = '';
+    mobileMenuBtn?.focus();
   }
 
+  mobileMenuBtn?.setAttribute('aria-expanded', 'false');
+  mobileMenuBtn?.setAttribute('aria-controls', 'mobile-menu');
   mobileMenuBtn?.addEventListener('click', openMobileMenu);
   mobileMenuClose?.addEventListener('click', closeMobileMenu);
   mobileMenuOverlay?.addEventListener('click', closeMobileMenu);
   mobileLinks?.forEach(link => link.addEventListener('click', closeMobileMenu));
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && mobileMenu?.classList.contains('open')) {
+      closeMobileMenu();
+    }
+  });
 
   // ==========================================
   // Stats Counter Animation
