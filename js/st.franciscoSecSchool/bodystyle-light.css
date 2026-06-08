@@ -1,0 +1,57 @@
+/**
+ * @package   Camber Template - RocketTheme
+ * @version   1.0 August 1, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Core */
+#rt-container-bg a:hover {color: #333;}
+ 
+/* Logo */
+#rt-logo, .title1 .module-title, .title2 .module-title, .title3 .module-title, .title4 .module-title {box-shadow: 1px 1px 2px rgba(0,0,0,0.7);}
+ 
+/* Main */
+#rt-container-bg {background: #fff;box-shadow: 0 0 5px rgba(0,0,0,0.3);text-shadow: 1px 1px 0 rgba(255,255,255,0.8);}
+
+/* Header */
+#rt-header {background: #f7f7f7 url(../images/body/light/header-overlay.png) 50% 100% repeat-x;}
+
+/* Showcase */
+#rt-showcase {border-bottom: 1px solid #dbdbdb;}
+
+/* Main Body */
+#rt-maintop {background-color: #f2f2f2;border-top: 1px solid #fff;border-bottom: 1px solid #dbdbdb;}
+
+/* Side Menu */
+.module-content ul.menu li.active {background-image: url(../images/body/light/shadow-divider-bottom.png);}
+.module-content ul.menu li.active > a, .module-content ul.menu li.active > .separator, .module-content ul.menu li.active > .item {background-image: url(../images/body/light/shadow-divider-top.png);}
+.module-content ul.menu li a span, .module-content ul.menu li .separator, .module-content ul.menu li .item span {background-image: url(../images/body/light/sidemenu-arrows.png);}
+
+/* Module Variations */
+.box1 .rt-block, .contentbox1 {border-color: #dbdbdb;}
+.box2 .rt-block, .contentbox2 {border-color: #dbdbdb;background-color: #f7f7f7;text-shadow: 1px 1px 0 rgba(255,255,255,0.8);}
+.box4 .rt-block, .contentbox4 {border-color: #dbdbdb;background-color: #eaeaea;text-shadow: 1px 1px 0 rgba(255,255,255,0.8);}
+.title2 .module-title, .title4 .module-title {background-image: url("../../images/gallery/stafs.png");}
+.title1 .module-title .accent, .title2 .module-title .accent, .title3 .module-title .accent, .title4 .module-title .accent {background-image: url("../../images/slideshow/4a.jpg");}
+.title2 .module-title {background-color: #ccc;}
+.title4 .module-title {background-color: #fafafa;}
+
+/* Login Form */
+#rt-header #form-login .inputbox {background-image: url(../images/overlays/global/dark-15.png);background-color: #f0f0f0;border-top: 1px solid #bbb;border-left: 1px solid #bbb;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
+#rt-header #form-login .inputbox:focus {background-color: #fff;}
+
+/* Buttons and Inputs */
+#rt-container-bg .rokradios, #rt-container-bg .rokchecks, #rt-container-bg .rokradios-active, #rt-container-bg .rokchecks-active {background-image: url(../images/body/light/body-rokinputs.png);}
+.inputbox, #form-login .inputbox, #com-form-login .inputbox, #josForm .inputbox, .component-content .user input#email, .component-content .user input#name, .component-content .user input#username, .component-content .user input#password, .component-content .user input#passwd, .component-content .user input#password2 {border: 1px solid #dbdbdb;background-color: #f7f7f7;color: #666;}
+
+/* Typography */
+.rt-articleinfo {border-bottom: 1px solid #dbdbdb;}
+.component-content .rt-article-icons .icon, .component-content .rt-article-icons ul li a {background-image: url(../images/body/light/article-icons.png);}
+#rt-body-surround .inputbox {border: 1px solid #dbdbdb;}
+#form-login ul li a, #com-form-login ul li a, ul.rt-more-articles li a, .rt-section-list ul li a, ul.mostread li a, ul.latestnews li a, .weblinks ul li a, #rt-popup ul li a, #rt-popuplogin ul li a {background-image: url(../images/body/light/sidemenu-arrows.png);}
+.component-content .rt-joomla-table tr.even td, .component-content .rt-joomla-table th {background: #fafafa;}
+.component-content .rt-joomla-table tr.odd td, .pollstableborder th {background: #eee;}
+p.dropcap2:first-letter {background: #777;color: #fff;}
+p.dropcap3:first-letter {background: #777;color: #fff;border: 1px solid #ccc;}
