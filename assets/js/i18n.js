@@ -32,6 +32,7 @@
     footer_brand:
       'Agricultural Marketing Co-operative Union of Tunduru since 1994. Join and support.',
     footer_quickLinks: 'Quick Links',
+    footer_magazine: 'TAMCU Magazine',
     footer_services: 'Our Services',
     footer_contact: 'Contact',
     footer_privacy: 'Privacy Policy',
@@ -59,29 +60,30 @@
     index_title:
       'TAMCU LTD | Tunduru Agricultural Marketing Co-operative Union',
     index_desc:
-      'TAMCU LTD is the Tunduru Agricultural Marketing Co-operative Union in Ruvuma, supporting markets for cashew, sesame, pigeon peas and other crops since 1994.',
+      'TAMCU LTD is the Tunduru Agricultural Marketing Co-operative Union in Ruvuma. Registered on 14.03.1994 under Chapter 211 (Revised Edition 2023), registration number AFF-RVM-TUN-DC-2023-27. 49 Primary Societies (AMCOs), 44 Member Societies.',
     index_hero_subtitle: 'Tunduru Agricultural Marketing Co-operative Union',
-    index_hero_title: 'Strengthening Cooperatives,<br>Increasing Productivity',
+    index_hero_title: 'Protect Co-operation,<br>Choose Integrity',
     index_hero_desc:
       'The Primary Co-operative Society for Agricultural Marketing in Tunduru since 1994. Working together with Cashew, Sesame and Pigeon Pea farmers.',
 
     index_about_label: 'About Us',
     index_about_title: 'Primary Co-operative Society (TAMCU LTD)',
     index_about_p1:
-      'TAMCU Ltd is the Primary Agricultural Marketing Co-operative Society located in Tunduru district which was established and performs its duties in accordance with the Co-operative Societies Act No. 6 of 2013. This society was registered on 18 March 1994 and was given registration certificate No. 5490.',
-    index_about_p2:
-      'Furthermore, TAMCU Ltd was established following the voluntary split of the Ruvuma Co-operative Union (RCU). The society was established with the aim of strengthening management, collection and market search for cashew, sesame, pigeon pea and other commercial crops in Tunduru district.',
-    index_about_p3:
-      'Currently the society has a total of 42 members who are Primary Co-operative Societies of Tunduru District (35) and Outside Tunduru (07). TAMCU serves all Societies coming from Namtumbo, Songea Rural, Nyasa, Mbinga, Ludewa-Njombe, Kyela-Mbeya Districts and Madaba Town Council.',
-    index_about_cert: 'Act No. 6',
-    index_about_certYear: 'of Year 2013',
-    index_about_reg: 'Cert. No. 5490',
-    index_about_regLabel: 'of Registration',
+      'TAMCU Primary Co-operative Society was established on 14.03.1994 under the Co-operative Societies Act (Chapter 211 Revised Edition 2023) and its amendments of 2025, and was given registration number AFF-RVM-TUN-DC-2023-27.',
+    index_about_p2: '',
+    index_about_p3: '',
+    index_about_cert: 'Chapter 211',
+    index_about_certYear: 'Revised Edition 2023',
+    index_about_reg: 'AFF-RVM-TUN-DC-2023-27',
+    index_about_regLabel: 'Registration No.',
 
     index_stats_founded: 'Year Founded',
     index_stats_coops: 'Co-operative Societies',
     index_stats_primary: 'Primary Societies in Tunduru',
     index_stats_crops: 'Types of Crops',
+    index_stats_amcos: 'Primary Societies (AMCOs)',
+    index_stats_members: 'Member Societies',
+    index_stats_nonmembers: 'Non-Member Societies',
 
     index_crops_label: 'Our Crops',
     index_crops_title: 'We Service Major Commercial Crops',
@@ -141,10 +143,16 @@
     index_partners_label: 'Our Partners',
     index_partners_title: 'OUR PARTNERS',
 
+    index_daily_label: 'Daily Updates',
+    index_daily_title: 'DAILY UPDATES',
+    index_daily_desc:
+      'Check out photos of events and the latest updates from TAMCU LTD every day.',
+    index_daily_cta: 'Follow us on Instagram',
+
     /* ---------- ABOUT PAGE ---------- */
     about_title: 'About Us | TAMCU LTD',
     about_desc:
-      'Learn about TAMCU LTD history, registration, vision, mission and service areas as the Tunduru Agricultural Marketing Co-operative Union.',
+      'Learn about TAMCU LTD history and registration. Registered on 14.03.1994 under Chapter 211 (Revised Edition 2023), registration number AFF-RVM-TUN-DC-2023-27. 49 Primary Societies (AMCOs), 44 Member Societies, 5 Non-Member Societies.',
     about_hero_label: 'Learn More',
     about_hero_title: 'About TAMCU LTD',
     about_hero_subtitle:
@@ -153,14 +161,16 @@
     about_history_label: 'Our History',
     about_history_title: 'History of TAMCU LTD',
     about_history_p1:
-      'TAMCU Ltd is the Primary Agricultural Marketing Co-operative Society located in Tunduru district which was established and performs its duties in accordance with the Co-operative Societies Act No. 6 of 2013.',
+      'TAMCU Primary Co-operative Society was established on 14.03.1994 under the Co-operative Societies Act (Chapter 211 Revised Edition 2023) and its amendments of 2025, and was given registration number AFF-RVM-TUN-DC-2023-27.',
     about_history_p2:
-      'This society was registered on 18 March 1994 and was given registration certificate No. 5490. TAMCU Ltd was established following the voluntary split of the Ruvuma Co-operative Union (RCU).',
-    about_history_p3:
-      'Currently the society has a total of 42 members who are Primary Co-operative Societies of Tunduru District (35) and Outside Tunduru (07).',
+      'The society involves 49 Primary Societies (AMCOs), of which 44 are Member Societies and 5 are Non-Member Societies.',
+    about_history_p3: '',
     about_history_foundedLabel: 'Year Founded',
     about_history_regLabel: 'Registration Certificate',
     about_history_years: 'Years of Service',
+    about_history_amcosLabel: 'Primary Societies (AMCOs)',
+    about_history_membersLabel: 'Member Societies',
+    about_history_nonmembersLabel: 'Non-Member Societies',
 
     about_mission_label: 'Our Purpose',
     about_mission_title: 'Vision and Mission',
@@ -363,7 +373,7 @@
     /* ---------- CONTACT PAGE ---------- */
     contact_title: 'Contact Us | TAMCU LTD',
     contact_desc:
-      'Contact TAMCU LTD in Tunduru, Ruvuma, Tanzania for membership, crop marketing, co-operative services, investment and general enquiries.',
+      'Contact TAMCU LTD in Tunduru, Ruvuma, Tanzania. Phone +255 (0) 753 -7999001. For membership, crop marketing, co-operative services, investment and general enquiries.',
     contact_hero_label: 'Send Us a Message',
     contact_hero_title: 'Contact Us',
     contact_hero_subtitle:
@@ -388,7 +398,7 @@
     contact_form_email: 'Email',
     contact_form_email_ph: 'email@example.com',
     contact_form_phone: 'Phone Number',
-    contact_form_phone_ph: '+255 XXX XXX XXX',
+    contact_form_phone_ph: '+255 (0) 753 -7999001',
     contact_form_subject: 'Subject',
     contact_form_subject_default: 'Choose subject...',
     contact_form_subject_join: 'Join the Society',

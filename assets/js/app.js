@@ -134,12 +134,14 @@
         const elapsed = currentTime - startTime;
         const progress = Math.min(elapsed / duration, 1);
         const eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
-        counter.textContent = Math.floor(eased * target).toLocaleString();
+        const value = Math.floor(eased * target);
+        const noComma = counter.hasAttribute('data-no-comma');
+        counter.textContent = noComma ? value.toString() : value.toLocaleString();
 
         if (progress < 1) {
           requestAnimationFrame(updateCounter);
         } else {
-          counter.textContent = target.toLocaleString();
+          counter.textContent = noComma ? target.toString() : target.toLocaleString();
         }
       }
 
