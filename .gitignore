@@ -6,3 +6,8 @@ npm-debug.log*
 .env.*
 
 assets/videos/*.MOV
+# Original unoptimized assets (optimized copies are tracked)
+assets/images/WhatsApp Image 2026-06-17 at 20.00.28.jpeg
+assets/images/WhatsApp Image 2026-06-17 at 20.00.56.jpeg
+assets/images/WhatsApp Image 2026-06-17 at 20.02.35.jpeg
+assets/images/Screenshot 2026-06-18 at 17.34.57.png

@@ -9,6 +9,24 @@
   const STORAGE_KEY = 'tamcu-lang';
   const DEFAULT_LANG = 'sw';
 
+  /* Safe localStorage wrapper (handles private mode / blocked storage) */
+  const storage = {
+    get(key) {
+      try {
+        return localStorage.getItem(key);
+      } catch (e) {
+        return null;
+      }
+    },
+    set(key, value) {
+      try {
+        localStorage.setItem(key, value);
+      } catch (e) {
+        // ignore
+      }
+    },
+  };
+
   /* ================================================================
      DICTIONARY: Swahili key → English text
      Keys mirror the data-i18n attribute values.
@@ -70,17 +88,12 @@
     index_about_title: 'Primary Co-operative Society (TAMCU LTD)',
     index_about_p1:
       'TAMCU Primary Co-operative Society was established on 14.03.1994 under the Co-operative Societies Act (Chapter 211 Revised Edition 2023) and its amendments of 2025, and was given registration number AFF-RVM-TUN-DC-2023-27.',
-    index_about_p2: '',
-    index_about_p3: '',
     index_about_cert: 'Chapter 211',
     index_about_certYear: 'Revised Edition 2023',
     index_about_reg: 'AFF-RVM-TUN-DC-2023-27',
     index_about_regLabel: 'Registration No.',
 
     index_stats_founded: 'Year Founded',
-    index_stats_coops: 'Co-operative Societies',
-    index_stats_primary: 'Primary Societies in Tunduru',
-    index_stats_crops: 'Types of Crops',
     index_stats_amcos: 'Primary Societies (AMCOs)',
     index_stats_members: 'Member Societies',
     index_stats_nonmembers: 'Non-Member Societies',
@@ -164,9 +177,7 @@
       'TAMCU Primary Co-operative Society was established on 14.03.1994 under the Co-operative Societies Act (Chapter 211 Revised Edition 2023) and its amendments of 2025, and was given registration number AFF-RVM-TUN-DC-2023-27.',
     about_history_p2:
       'The society involves 49 Primary Societies (AMCOs), of which 44 are Member Societies and 5 are Non-Member Societies.',
-    about_history_p3: '',
     about_history_foundedLabel: 'Year Founded',
-    about_history_regLabel: 'Registration Certificate',
     about_history_years: 'Years of Service',
     about_history_amcosLabel: 'Primary Societies (AMCOs)',
     about_history_membersLabel: 'Member Societies',
@@ -776,7 +787,7 @@
    */
   window.setLanguage = function (lang) {
     if (lang !== 'sw' && lang !== 'en') return;
-    localStorage.setItem(STORAGE_KEY, lang);
+    storage.set(STORAGE_KEY, lang);
     applyLanguage(lang);
   };
 
@@ -784,7 +795,7 @@
    * Initialize on page load.
    */
   function init() {
-    const lang = localStorage.getItem(STORAGE_KEY) || DEFAULT_LANG;
+    const lang = storage.get(STORAGE_KEY) || DEFAULT_LANG;
     applyLanguage(lang);
   }
 
