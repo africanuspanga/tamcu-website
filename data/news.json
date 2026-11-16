@@ -1,0 +1,180 @@
+{
+  "items": [
+    {
+      "id": "mnada-wa-kwanza-korosho-2026",
+      "date": "2026-10-20",
+      "published": true,
+      "category": {
+        "sw": "Minada",
+        "en": "Auctions"
+      },
+      "title": {
+        "sw": "Mnada wa kwanza wa korosho msimu wa 2026/2027",
+        "en": "First cashew auction of the 2026/2027 season"
+      },
+      "excerpt": {
+        "sw": "Tani 1,454 za korosho ghafi zimeuzwa katika mnada wa kwanza wa TAMCU, kwa bei ya juu ya TSh 3,210 na ya chini TSh 3,170 kwa kilo.",
+        "en": "1,454 tonnes of raw cashew were sold at TAMCU's first auction, at a high of TSh 3,210 and a low of TSh 3,170 per kilo."
+      },
+      "body": {
+        "sw": "Mnada wa kwanza wa korosho wa msimu wa 2026/2027 umefanyika kupitia mfumo wa Soko la Bidhaa Tanzania (TMX). Jumla ya kilo 1,454,423 za korosho ghafi ziliuzwa. Bei ya juu ilikuwa TSh 3,210 kwa kilo na bei ya chini TSh 3,170 kwa kilo.\n\nMatokeo ya minada yote ya msimu yanapatikana kwenye ukurasa wa Minada.",
+        "en": "The first cashew auction of the 2026/2027 season was held on the Tanzania Mercantile Exchange (TMX). In total 1,454,423 kg of raw cashew were sold. The highest price was TSh 3,210 per kilo and the lowest TSh 3,170 per kilo.\n\nResults for every auction this season are on the Auctions page."
+      },
+      "image": "assets/img/korosho-ghafi.webp"
+    },
+    {
+      "id": "minada-ufuta-2026-kuanza",
+      "date": "2026-05-08",
+      "published": true,
+      "category": {
+        "sw": "Minada",
+        "en": "Auctions"
+      },
+      "title": {
+        "sw": "Minada ya ufuta Tunduru kuanza tarehe 19 Mei 2026",
+        "en": "Tunduru sesame auctions to start on 19 May 2026"
+      },
+      "excerpt": {
+        "sw": "Mkuu wa Wilaya ya Tunduru, Mhe. Denis Masanja, ametangaza kuwa minada ya mazao Tunduru ianze tarehe 19.05.2026.",
+        "en": "The Tunduru District Commissioner, Hon. Denis Masanja, announced that crop auctions in Tunduru should start on 19 May 2026."
+      },
+      "body": {
+        "sw": "Katika kikao kilichofanyika tarehe 8 Mei 2026 Tunduru, Mkuu wa Wilaya Mhe. Denis Masanja alitangaza kuwa minada ya mazao ianze tarehe 19.05.2026.",
+        "en": "At a meeting in Tunduru on 8 May 2026, District Commissioner Hon. Denis Masanja announced that crop auctions should start on 19 May 2026."
+      },
+      "image": "assets/img/daily-update-3.webp"
+    },
+    {
+      "id": "n1",
+      "date": "2026-04-23",
+      "published": true,
+      "category": {
+        "sw": "Mkutano",
+        "en": "Meeting"
+      },
+      "title": {
+        "sw": "Mkutano Mkuu wa 23 wa Mwaka 2026/2027",
+        "en": "23rd Annual General Meeting for Year 2026/2027"
+      },
+      "excerpt": {
+        "sw": "Umefanyika leo tarehe 23 Mwezi April ikiwa ni sehemu ya majukumu ya uongozi wa chama kwa mwaka huu. Wanachama walijadili masuala mbalimbali ya maendeleo.",
+        "en": "Held today on 23rd April as part of the society's leadership duties for this year. Members discussed various development issues."
+      },
+      "body": {
+        "sw": "Umefanyika leo tarehe 23 Mwezi April ikiwa ni sehemu ya majukumu ya uongozi wa chama kwa mwaka huu. Wanachama walijadili masuala mbalimbali ya maendeleo.",
+        "en": "Held today on 23rd April as part of the society's leadership duties for this year. Members discussed various development issues."
+      },
+      "image": "assets/img/stafs.webp"
+    },
+    {
+      "id": "n2",
+      "date": "2026-04-15",
+      "published": true,
+      "category": {
+        "sw": "Masoko",
+        "en": "Markets"
+      },
+      "title": {
+        "sw": "Bei za Korosho Zinaendelea Kupanda Soko la Dunia",
+        "en": "Cashew Prices Continue to Rise in World Market"
+      },
+      "excerpt": {
+        "sw": "Ripoti mpya kutoka Shirika la Chakula na Kilimo Duniani (FAO) inaonyesha kuwa bei za korosho zimeongezeka kwa asilimia 15 toka mwaka jana.",
+        "en": "A new report from the Food and Agriculture Organization (FAO) shows that cashew prices have increased by 15 percent since last year."
+      },
+      "body": {
+        "sw": "Ripoti mpya kutoka Shirika la Chakula na Kilimo Duniani (FAO) inaonyesha kuwa bei za korosho zimeongezeka kwa asilimia 15 toka mwaka jana.",
+        "en": "A new report from the Food and Agriculture Organization (FAO) shows that cashew prices have increased by 15 percent since last year."
+      },
+      "image": "assets/img/korosho-rcn.webp"
+    },
+    {
+      "id": "n3",
+      "date": "2026-04-10",
+      "published": true,
+      "category": {
+        "sw": "Uanachama",
+        "en": "Membership"
+      },
+      "title": {
+        "sw": "Wanachama Wapya 7 Wajiunga na TAMCU",
+        "en": "7 New Members Join TAMCU"
+      },
+      "excerpt": {
+        "sw": "Vyama vya ushirika vya msingi 7 kutoka wilaya za jirani vimejiunga rasmi na TAMCU LTD kuimarisha ushirika wa kilimo.",
+        "en": "7 primary co-operative societies from neighbouring districts have officially joined TAMCU LTD to strengthen agricultural co-operation."
+      },
+      "body": {
+        "sw": "Vyama vya ushirika vya msingi 7 kutoka wilaya za jirani vimejiunga rasmi na TAMCU LTD kuimarisha ushirika wa kilimo.",
+        "en": "7 primary co-operative societies from neighbouring districts have officially joined TAMCU LTD to strengthen agricultural co-operation."
+      },
+      "image": "assets/img/coverpage.webp"
+    },
+    {
+      "id": "n4",
+      "date": "2026-04-05",
+      "published": true,
+      "category": {
+        "sw": "Mafunzo",
+        "en": "Training"
+      },
+      "title": {
+        "sw": "Mafunzo ya Kilimo bora ya Korosho Yafanyika",
+        "en": "Good Cashew Farming Training Conducted"
+      },
+      "excerpt": {
+        "sw": "Mafunzo ya siku 3 yamefanyika kwa wakulima wa korosho kuhusu kilimo bora, uvunaji na uhifadhi wa korosho.",
+        "en": "A 3-day training was held for cashew farmers on good farming, harvesting and storage of cashew."
+      },
+      "body": {
+        "sw": "Mafunzo ya siku 3 yamefanyika kwa wakulima wa korosho kuhusu kilimo bora, uvunaji na uhifadhi wa korosho.",
+        "en": "A 3-day training was held for cashew farmers on good farming, harvesting and storage of cashew."
+      },
+      "image": "assets/img/korosho-ghafi.webp"
+    },
+    {
+      "id": "n5",
+      "date": "2026-03-28",
+      "published": true,
+      "category": {
+        "sw": "Usafirishaji",
+        "en": "Transport"
+      },
+      "title": {
+        "sw": "Usafirishaji wa Korosho Umeanza kwa Msimu Mpya",
+        "en": "Cashew Transport Begins for New Season"
+      },
+      "excerpt": {
+        "sw": "TAMCU LTD imeanza rasmi usafirishaji wa korosho za msimu wa 2026/2027 kwenda viwanda vya usindikaji.",
+        "en": "TAMCU LTD has officially begun cashew transport for the 2026/2027 season to processing factories."
+      },
+      "body": {
+        "sw": "TAMCU LTD imeanza rasmi usafirishaji wa korosho za msimu wa 2026/2027 kwenda viwanda vya usindikaji.",
+        "en": "TAMCU LTD has officially begun cashew transport for the 2026/2027 season to processing factories."
+      },
+      "image": "assets/img/daily-update-2.webp"
+    },
+    {
+      "id": "n6",
+      "date": "2026-03-20",
+      "published": true,
+      "category": {
+        "sw": "Ushirika",
+        "en": "Co-operation"
+      },
+      "title": {
+        "sw": "TAMCU Yapata Tuzo ya Ushirika Bora wa Mwaka",
+        "en": "TAMCU Wins Co-operative of the Year Award"
+      },
+      "excerpt": {
+        "sw": "Chama Kikuu cha Ushirika cha Mkoa wa Ruvuma kimetoa tuzo ya ushirika bora wa mwaka 2025 kwa TAMCU LTD.",
+        "en": "The Ruvuma District Primary Co-operative Society has awarded the Co-operative of the Year 2025 award to TAMCU LTD."
+      },
+      "body": {
+        "sw": "Chama Kikuu cha Ushirika cha Mkoa wa Ruvuma kimetoa tuzo ya ushirika bora wa mwaka 2025 kwa TAMCU LTD.",
+        "en": "The Ruvuma District Primary Co-operative Society has awarded the Co-operative of the Year 2025 award to TAMCU LTD."
+      },
+      "image": "assets/img/stafs.webp"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "title": {
+    "sw": "Uzalishaji wa mazao",
+    "en": "Crop production"
+  },
+  "crops": [
+    {
+      "id": "korosho",
+      "name": {
+        "sw": "Korosho",
+        "en": "Cashew"
+      },
+      "image": "assets/img/korosho-ghafi.webp",
+      "note": {
+        "sw": "",
+        "en": ""
+      },
+      "rows": [
+        {
+          "season": "2021/22",
+          "kg": 25284503,
+          "avg_price": 1996,
+          "value": 50471797263
+        },
+        {
+          "season": "2022/23",
+          "kg": 15218006,
+          "avg_price": 1706,
+          "value": 25921918236
+        },
+        {
+          "season": "2023/24",
+          "kg": 26062323,
+          "avg_price": 1747,
+          "value": 45541569135
+        },
+        {
+          "season": "2024/25",
+          "kg": 31608038,
+          "avg_price": 2947,
+          "value": 93154929531
+        },
+        {
+          "season": "2025/26",
+          "kg": 41200102,
+          "avg_price": 2476,
+          "value": 102008146090
+        }
+      ]
+    },
+    {
+      "id": "ufuta",
+      "name": {
+        "sw": "Ufuta",
+        "en": "Sesame"
+      },
+      "image": "assets/img/ufuta.webp",
+      "note": {
+        "sw": "Takwimu za awali kutoka taarifa za minada; zithibitishwe na TAMCU.",
+        "en": "Initial figures from auction reports; to be confirmed by TAMCU."
+      },
+      "rows": [
+        {
+          "season": "2025/26",
+          "kg": 5042260,
+          "avg_price": 2417,
+          "value": 12185051130
+        },
+        {
+          "season": "2026/27",
+          "kg": 2147796,
+          "avg_price": 2452,
+          "value": 5267575661
+        }
+      ]
+    },
+    {
+      "id": "mbaazi",
+      "name": {
+        "sw": "Mbaazi",
+        "en": "Pigeon peas"
+      },
+      "image": "assets/img/mbaazi-nzima.webp",
+      "note": {
+        "sw": "",
+        "en": ""
+      },
+      "rows": []
+    }
+  ]
+}

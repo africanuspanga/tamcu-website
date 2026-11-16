@@ -1,0 +1,26 @@
+# Same limits for hosts running PHP as an Apache module (ignored elsewhere).
+<IfModule mod_php.c>
+  php_value upload_max_filesize 12M
+  php_value post_max_size 14M
+  php_value memory_limit 256M
+</IfModule>
+<IfModule mod_php7.c>
+  php_value upload_max_filesize 12M
+  php_value post_max_size 14M
+  php_value memory_limit 256M
+</IfModule>
+<Files ".user.ini">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+</Files>
+<Files "config*.php">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+</Files>
+<Files "lib.php">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+</Files>

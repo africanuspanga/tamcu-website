@@ -1,0 +1,139 @@
+{
+  "note": {
+    "sw": "Takwimu za awali zimekusanywa kutoka taarifa za minada; zitathibitishwa na kuongezwa na TAMCU.",
+    "en": "Initial figures are compiled from auction reports and will be confirmed and completed by TAMCU."
+  },
+  "crops": [
+    {
+      "id": "korosho",
+      "name": {
+        "sw": "Korosho",
+        "en": "Cashew"
+      },
+      "image": "assets/img/korosho-ghafi.webp",
+      "seasons": [
+        {
+          "season": "2026/2027",
+          "rows": [
+            {
+              "auction": 1,
+              "date": "2026-10-20",
+              "location": "Tunduru",
+              "host": "",
+              "kg": 1454423,
+              "lots": "",
+              "high": 3210,
+              "low": 3170,
+              "avg": ""
+            }
+          ]
+        },
+        {
+          "season": "2025/2026",
+          "rows": [
+            {
+              "auction": 1,
+              "date": "2025-11-13",
+              "location": "Nakapanya",
+              "host": "",
+              "kg": 6354190,
+              "lots": "",
+              "high": "",
+              "low": "",
+              "avg": 3281
+            },
+            {
+              "auction": 3,
+              "date": "2025-11-26",
+              "location": "Ukumbi wa Halmashauri, Tunduru",
+              "host": "",
+              "kg": 9560021,
+              "lots": "",
+              "high": "",
+              "low": "",
+              "avg": 2512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ufuta",
+      "name": {
+        "sw": "Ufuta",
+        "en": "Sesame"
+      },
+      "image": "assets/img/ufuta.webp",
+      "seasons": [
+        {
+          "season": "2026/2027",
+          "rows": [
+            {
+              "auction": 1,
+              "date": "2026-05-21",
+              "location": "Tunduru Mjini",
+              "host": "",
+              "kg": 994618,
+              "lots": "",
+              "high": 2520,
+              "low": 2410,
+              "avg": 2477
+            },
+            {
+              "auction": 5,
+              "date": "2026-06-16",
+              "location": "Mchesi",
+              "host": "Mruji AMCOS",
+              "kg": "",
+              "lots": "",
+              "high": "",
+              "low": "",
+              "avg": ""
+            },
+            {
+              "auction": 8,
+              "date": "2026-07-14",
+              "location": "Tunduru",
+              "host": "",
+              "kg": 64295,
+              "lots": "",
+              "high": "",
+              "low": "",
+              "avg": 2210
+            }
+          ]
+        },
+        {
+          "season": "2025/2026",
+          "rows": [
+            {
+              "auction": 1,
+              "date": "",
+              "location": "Mchesi (Tarafa ya Lukumbule)",
+              "host": "",
+              "kg": 1273487,
+              "lots": "",
+              "high": "",
+              "low": "",
+              "avg": 2439
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mbaazi",
+      "name": {
+        "sw": "Mbaazi",
+        "en": "Pigeon peas"
+      },
+      "image": "assets/img/mbaazi-nzima.webp",
+      "seasons": [
+        {
+          "season": "2026/2027",
+          "rows": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "u3",
+      "date": "2026-06-10",
+      "title": {
+        "sw": "Mnada wa tano wa ufuta — 16 Juni 2026",
+        "en": "Fifth sesame auction — 16 June 2026"
+      },
+      "body": {
+        "sw": "Mnada wa tano wa ufuta pamoja na karanga, njugu, kunde na choroko, msimu wa 2026/27.\n\nMahali: Mchesi, Tunduru\nMwenyeji: Mruji AMCOS\nSaa: 05:00 asubuhi, Jumanne",
+        "en": "The fifth auction of sesame, together with groundnuts, bambara nuts, cowpeas and green grams, 2026/27 season.\n\nVenue: Mchesi, Tunduru\nHost: Mruji AMCOS\nTime: 05:00 am, Tuesday"
+      },
+      "image": "assets/img/daily-update-1.webp",
+      "link": ""
+    },
+    {
+      "id": "u2",
+      "date": "2026-05-20",
+      "title": {
+        "sw": "Huduma ya usafirishaji wa mizigo",
+        "en": "Cargo transport service"
+      },
+      "body": {
+        "sw": "TAMCU LTD inatoa huduma ya usafirishaji wa mizigo saa 24, popote nchini. Zipo gari za tani 32 na 20.\n\nTupigie: 0753 799 001",
+        "en": "TAMCU LTD offers 24-hour cargo transport anywhere in the country, with 32-tonne and 20-tonne trucks.\n\nCall us: 0753 799 001"
+      },
+      "image": "assets/img/daily-update-2.webp",
+      "link": "services.html#usafirishaji"
+    },
+    {
+      "id": "u1",
+      "date": "2026-05-08",
+      "title": {
+        "sw": "Minada Tunduru ianze tarehe 19.05.2026",
+        "en": "Tunduru auctions to start on 19 May 2026"
+      },
+      "body": {
+        "sw": "Mhe. Denis Masanja, Mkuu wa Wilaya ya Tunduru.",
+        "en": "Hon. Denis Masanja, Tunduru District Commissioner."
+      },
+      "image": "assets/img/daily-update-3.webp",
+      "link": "habari.html?id=minada-ufuta-2026-kuanza"
+    }
+  ]
+}

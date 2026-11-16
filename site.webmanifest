@@ -3,22 +3,14 @@
   "short_name": "TAMCU",
   "description": "Tunduru Agricultural Marketing Co-operative Union.",
   "lang": "sw-TZ",
-  "start_url": "index.html",
-  "scope": ".",
+  "start_url": "/index.html",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#F8FAFC",
-  "theme_color": "#0F172A",
+  "background_color": "#f3f5f1",
+  "theme_color": "#0d2250",
   "icons": [
-    {
-      "src": "assets/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    },
-    {
-      "src": "assets/images/logo.png",
-      "sizes": "400x400",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/assets/img/logo-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/img/logo-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }

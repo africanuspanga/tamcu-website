@@ -1,0 +1,44 @@
+{
+  "general_manager": {
+    "name": "Zainabu Sendema",
+    "title": {
+      "sw": "Kaimu Meneja Mkuu",
+      "en": "Acting General Manager"
+    },
+    "photo": "",
+    "heading": {
+      "sw": "Karibu TAMCU LTD",
+      "en": "Welcome to TAMCU LTD"
+    },
+    "message": {
+      "sw": "Ndugu wakulima, wanachama na wadau wetu,\n\nKaribuni kwenye tovuti ya TAMCU LTD. Tangu mwaka 1994 chama chetu kimekuwa daraja kati ya mkulima wa Tunduru na soko. Kazi yetu ni moja: kuhakikisha mazao ya wakulima yanauzwa kwa uwazi, kwa bei shindani, na malipo yanamfikia mkulima kwa wakati.\n\nKupitia mfumo wa stakabadhi za ghala na minada ya kimtandao ya Soko la Bidhaa Tanzania (TMX), wanunuzi wengi wanashindana kwa wazi na mkulima ananufaika. Katika msimu wa 2024/2025 tuliuza zaidi ya kilo milioni 31.6 za korosho zenye thamani ya zaidi ya shilingi bilioni 93.\n\nTunawahimiza wakulima kuendelea kuzalisha kwa wingi na kwa ubora mazao yote yaliyo kwenye mfumo wa stakabadhi za ghala, yakiwemo korosho, ufuta na mbaazi. Kwenye tovuti hii utapata matokeo ya minada, takwimu za uzalishaji na taarifa za kila siku za chama.\n\nLinda ushirika, chagua uadilifu.",
+      "en": "Dear farmers, members and partners,\n\nWelcome to the TAMCU LTD website. Since 1994 our union has been the bridge between Tunduru's farmers and the market. Our job is simple: make sure farmers' crops are sold openly, at competitive prices, and that payments reach farmers on time.\n\nThrough the warehouse receipt system and the Tanzania Mercantile Exchange (TMX) online auctions, many buyers compete in the open and the farmer benefits. In the 2024/2025 season we sold more than 31.6 million kilograms of cashew worth over 93 billion shillings.\n\nWe encourage farmers to keep producing more, and better, of every crop in the warehouse receipt system, including cashew, sesame and pigeon peas. On this website you will find auction results, production figures and daily news from the union.\n\nProtect the co-operative, choose integrity."
+    }
+  },
+  "chair": {
+    "name": "Mussa Manjaule",
+    "title": {
+      "sw": "Mwenyekiti wa Bodi",
+      "en": "Board Chairperson"
+    },
+    "photo": "",
+    "heading": {
+      "sw": "",
+      "en": ""
+    },
+    "message": {
+      "sw": "",
+      "en": ""
+    }
+  },
+  "team": [
+    {
+      "name": "Kaisi Makolela",
+      "title": {
+        "sw": "Makamu Mwenyekiti",
+        "en": "Vice Chairperson"
+      },
+      "photo": ""
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "name": "Tanzania Mercantile Exchange",
+      "short": "TMX",
+      "url": "https://www.tmx.co.tz",
+      "logo": "assets/img/partners/tmx.webp"
+    },
+    {
+      "name": "Warehouse Receipts Regulatory Board",
+      "short": "WRRB",
+      "url": "https://www.wrrb.go.tz",
+      "logo": "assets/img/partners/wrrb.webp"
+    },
+    {
+      "name": "Cereals and Other Produce Regulatory Authority",
+      "short": "COPRA",
+      "url": "https://www.copra.go.tz",
+      "logo": "assets/img/partners/copra.webp"
+    },
+    {
+      "name": "Tume ya Maendeleo ya Ushirika",
+      "short": "TCDC",
+      "url": "https://www.ushirika.go.tz",
+      "logo": "assets/img/partners/tcdc.webp"
+    },
+    {
+      "name": "Bodi ya Korosho Tanzania",
+      "short": "CBT",
+      "url": "https://www.cashew.go.tz",
+      "logo": "assets/img/partners/cbt.webp"
+    },
+    {
+      "name": "Wizara ya Kilimo",
+      "short": "Kilimo",
+      "url": "https://www.kilimo.go.tz",
+      "logo": "assets/img/partners/kilimo.webp"
+    },
+    {
+      "name": "TARI",
+      "short": "TARI",
+      "url": "https://www.tari.go.tz",
+      "logo": "assets/img/partners/tari.webp"
+    },
+    {
+      "name": "Moshi Co-operative University",
+      "short": "MoCU",
+      "url": "https://www.mocu.ac.tz",
+      "logo": "assets/img/partners/mocu.webp"
+    },
+    {
+      "name": "Cooperative Bank of Tanzania",
+      "short": "Coop Bank",
+      "url": "https://coopbank.co.tz",
+      "logo": "assets/img/partners/coopbank.webp"
+    },
+    {
+      "name": "CRDB Bank",
+      "short": "CRDB",
+      "url": "https://crdbbank.co.tz",
+      "logo": "assets/img/partners/crdb.webp"
+    },
+    {
+      "name": "Halmashauri ya Wilaya ya Tunduru",
+      "short": "TDC",
+      "url": "https://www.tundurudc.go.tz",
+      "logo": ""
+    },
+    {
+      "name": "TPAWU",
+      "short": "TPAWU",
+      "url": "",
+      "logo": ""
+    }
+  ]
+}

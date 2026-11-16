@@ -1,0 +1,78 @@
+{
+  "contact": {
+    "email": "info@tamcu.co.tz",
+    "phones": [
+      "+255 753 799 001",
+      "+255 714 989 890"
+    ],
+    "address": {
+      "sw": "Tunduru, Ruvuma, Tanzania",
+      "en": "Tunduru, Ruvuma, Tanzania"
+    }
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/tamcultd",
+    "facebook": "https://www.facebook.com/share/17rt69TDyn/",
+    "whatsapp": "https://whatsapp.com/channel/0029VbCT6PNBfxo3zGT9mG3m"
+  },
+  "ticker_label": {
+    "sw": "Bei za mazao msimu uliopita:",
+    "en": "Last season's crop prices:"
+  },
+  "prices": [
+    {
+      "crop": {
+        "sw": "Korosho",
+        "en": "Cashew"
+      },
+      "high": 2500,
+      "low": 1900
+    },
+    {
+      "crop": {
+        "sw": "Mbaazi",
+        "en": "Pigeon peas"
+      },
+      "high": 1500,
+      "low": 1000
+    },
+    {
+      "crop": {
+        "sw": "Ufuta",
+        "en": "Sesame"
+      },
+      "high": 3500,
+      "low": 2500
+    }
+  ],
+  "stats": [
+    {
+      "value": "1994",
+      "label": {
+        "sw": "Mwaka wa kuanzishwa",
+        "en": "Year founded"
+      }
+    },
+    {
+      "value": "49",
+      "label": {
+        "sw": "Vyama vya Msingi (AMCOs)",
+        "en": "Primary societies (AMCOs)"
+      }
+    },
+    {
+      "value": "44",
+      "label": {
+        "sw": "Vyama wanachama",
+        "en": "Member societies"
+      }
+    },
+    {
+      "value": "8",
+      "label": {
+        "sw": "Wilaya tunazohudumia",
+        "en": "Districts served"
+      }
+    }
+  ]
+}

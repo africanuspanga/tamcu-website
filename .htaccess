@@ -1,0 +1,52 @@
+# TAMCU LTD — Apache settings
+Options -Indexes
+DirectoryIndex index.html index.php
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Force HTTPS: uncomment the next 3 lines once you have confirmed https://www.tamcu.co.tz loads.
+  # (If the site then stops loading with "too many redirects", comment them out again.)
+  # RewriteCond %{HTTPS} !=on
+  # RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  # RewriteRule ^ https://www.tamcu.co.tz%{REQUEST_URI} [L,R=301]
+  # Send tamcu.co.tz to www.tamcu.co.tz (one address is better for Google)
+  RewriteCond %{HTTP_HOST} ^tamcu\.co\.tz$ [NC]
+  RewriteRule ^ https://www.tamcu.co.tz%{REQUEST_URI} [L,R=301]
+  # Build tools and sources are not part of the site
+  RewriteRule ^(tools|node_modules|\.git)(/|$) - [F,L]
+  RewriteRule ^(README\.md|REBUILD_PLAN\.md|package\.json)$ - [F,L]
+</IfModule>
+
+# Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript application/json image/svg+xml application/xml text/xml application/manifest+json
+</IfModule>
+
+# Caching: assets are versioned with ?v=, content JSON must always be fresh
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/json "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType image/webp "access plus 6 months"
+  ExpiresByType image/jpeg "access plus 6 months"
+  ExpiresByType image/png "access plus 6 months"
+  ExpiresByType image/svg+xml "access plus 6 months"
+  ExpiresByType video/mp4 "access plus 6 months"
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(json)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+AddType image/webp .webp
+AddType application/manifest+json .webmanifest
